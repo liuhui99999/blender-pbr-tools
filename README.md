@@ -1,18 +1,27 @@
-# Photoshop Scripts 🖼️
+# Blender PBR Tools
 
-Adobe Photoshop automation scripts for batch processing and productivity.
+Automate your Blender PBR material workflow with Python scripts.
+
+[Buy Full Version on Gumroad](https://liuhui99999.gumroad.com/l/hkxdh)
 
 ## Scripts
 
-- `ps_color.jsx` - Batch hue/saturation adjustment across all layers
-- `ps_rename.jsx` - Batch rename layers with prefix and numbering
+- preview_setup.py - One-click material preview scene
+- batch_rename.py - Batch rename objects/materials
+- texture_baker.py - Bake PBR texture maps
+- material_exporter.py - Extract textures from materials
+- normal_validator.py - Validate normal map settings
 
-## Usage
+## Premium Scripts
 
-1. In Photoshop: File → Scripts → Browse
-2. Select the .jsx file
-3. Run
+Get 10+ additional scripts including PBR setup, lighting presets, camera orbit, scatter tool, texture importer, scene optimizer and more.
 
-## License
+[Buy Full Collection - $5](https://liuhui99999.gumroad.com/l/hkxdh)
 
-MIT
+## Quick Start
+
+1. Open Blender -> Scripting workspace
+2. Load any .py script
+3. Press Alt+P to run
+
+## License: MIT
