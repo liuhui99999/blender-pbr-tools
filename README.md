@@ -1,27 +1,25 @@
 # Blender PBR Tools
 
-Automate your Blender PBR material workflow with Python scripts.
+[![Gumroad](https://img.shields.io/badge/Premium%20Scripts-%245-blue)](https://liuhui99999.gumroad.com)
+[![Website](https://img.shields.io/badge/Website-liuhui99999.github.io-green)](https://liuhui99999.github.io)
 
-[Buy Full Version on Gumroad](https://liuhui99999.gumroad.com/l/hkxdh)
+Free and premium Python scripts for Blender PBR material workflow automation.
 
-## Scripts
+## Free Scripts
 
-- preview_setup.py - One-click material preview scene
-- batch_rename.py - Batch rename objects/materials
-- texture_baker.py - Bake PBR texture maps
-- material_exporter.py - Extract textures from materials
-- normal_validator.py - Validate normal map settings
+- **Auto Smooth** - Auto smooth mesh objects with custom angle
+- **Apply Transforms** - Apply all transforms to objects
+- **Select by Material** - Select objects using material name
+- **Merge Vertices** - Remove duplicate vertices
+- **Quick UV Sphere** - Create spheres with materials
+- **Toggle Wireframe** - Toggle wireframe display
+- **Preview Setup** - One-click material preview scene
+- **Batch Rename** - Rename objects and materials
+- **Normal Validator** - Check normal map settings
+- **Material Exporter** - Extract textures from materials
 
 ## Premium Scripts
 
-Get 10+ additional scripts including PBR setup, lighting presets, camera orbit, scatter tool, texture importer, scene optimizer and more.
+Advanced tools including PBR auto-setup, studio lighting, camera orbit, scatter, and more.
 
-[Buy Full Collection - $5](https://liuhui99999.gumroad.com/l/hkxdh)
-
-## Quick Start
-
-1. Open Blender -> Scripting workspace
-2. Load any .py script
-3. Press Alt+P to run
-
-## License: MIT
+**https://liuhui99999.gumroad.com**
