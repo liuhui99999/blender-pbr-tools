@@ -1,0 +1,1 @@
+from PIL import Image\nimport os\ndef comp(fold,q=85):\n for f in os.listdir(fold):\n  if f.lower().endswith((".png",".jpg")):\n   p=os.path.join(fold,f);img=Image.open(p)\n   img.save(p,optimize=True,quality=q)\n   print(f"Compressed: {f}")

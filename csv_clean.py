@@ -1,0 +1,1 @@
+import csv\ndef clean(inp,out):\n with open(inp) as f:r=list(csv.reader(f))\n c=[[c.strip() for c in row] for row in r if any(c.strip() for c in row)]\n with open(out,"w",newline="") as f:csv.writer(f).writerows(c)\n print(f"Cleaned {len(r)}->{len(c)} rows")

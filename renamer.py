@@ -1,0 +1,1 @@
+import os,re\ndef rename(folder,p,r):\n for f in os.listdir(folder):\n  if os.path.isfile(os.path.join(folder,f)):\n   n=re.sub(p,r,f)\n   if n!=f:os.rename(os.path.join(folder,f),os.path.join(folder,n))\n print("Done")
